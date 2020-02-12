@@ -1,0 +1,74 @@
+@font-face {
+       font-family: "Graphik";
+       src: url("/Users/wanghsiangtzu/Desktop/studio inter/project 01/coding/Graphik/Graphik-Thin.otf");
+       font-weight: 700;
+       font-style: normal;
+       font-stretch: normal;
+}
+html, body{
+	background-color: #ff531f;
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+.sentence1{
+	position: absolute;
+	font-family: Graphik;
+	z-index: 1; 
+	left:3%;
+	bottom: 83%
+}
+.sentence2{
+	position: absolute;
+	font-family: Graphik; 
+	z-index: 1;
+	left:15%;
+	bottom: 15%;
+}
+.sentence3{
+	position: absolute;
+	font-family: Graphik; 
+	z-index: 1;
+	transform: rotate(-90deg);
+	left: 40%;
+	bottom: 60%;
+}
+.sentence4{
+	position: absolute;
+	font-family: Graphik; 
+	width: 50%;
+	height: 50%;
+	z-index: 1;
+	transform: rotate(90deg);
+	left: 75%;
+	top: 30%;
+}
+.sentence5{
+	position: absolute;
+	font-family: Graphik; 
+	z-index: 1;
+	transform: rotate(-90deg);
+	left: 40%;
+	bottom: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
