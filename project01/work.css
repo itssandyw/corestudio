@@ -40,20 +40,12 @@ html, body{
 	top: 55%;
 }
 .picture-container{
+	position: relative;
 	display: flex;
 	justify-content: center;
 	margin: 100px;
 }
 .picture{
-	display: flex;
-	justify-content: space-between;
-}
-.picture-container01{
-	display: flex;
-	justify-content: center;
-	margin: 100px;
-}
-.picture01{
 	display: flex;
 	justify-content: space-between;
 }
@@ -66,11 +58,22 @@ html, body{
 #img3 {
 	width: 18%;
 }
+.picture-container01{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	margin: 100px;
+	top: -0.5%;
+}
+.picture01{
+	display: flex;
+	justify-content: space-between;
+}
 #img1-1 {
 	width: 18%;
 }
 #img2-2 {
-	width: 18%;
+	width: 17%;
 }
 #img3-3 {
 	width: 18%;
