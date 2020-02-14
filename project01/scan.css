@@ -1,6 +1,13 @@
 @font-face {
        font-family: "Graphik";
-       src: url("/Users/wanghsiangtzu/Desktop/studio inter/project 01/coding/Graphik/Graphik-Thin.otf");
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Thin.otf");
+       font-weight: 700;
+       font-style: normal;
+       font-stretch: normal;
+}
+@font-face {
+       font-family: "Graphik-Medium";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Medium.otf");
        font-weight: 700;
        font-style: normal;
        font-stretch: normal;
@@ -13,43 +20,69 @@ html, body{
 }
 .sentence1{
 	position: absolute;
-	font-family: Graphik;
+	font-family: Graphik-Thin;
+	font-size: 90px;
+	transform: rotate(-90deg);
 	z-index: 1; 
-	left:3%;
-	bottom: 83%
+	right:80%;
+	bottom: 20%
 }
 .sentence2{
 	position: absolute;
-	font-family: Graphik; 
+	font-family: Graphik-Thin;
+	font-size: 14px;
+	text-align: center; 
 	z-index: 1;
 	left:15%;
-	bottom: 15%;
+	bottom: 55%;
 }
 .sentence3{
 	position: absolute;
-	font-family: Graphik; 
+	font-family: Graphik-Thin; 
+	font-size: 20px;
 	z-index: 1;
-	transform: rotate(-90deg);
-	left: 40%;
-	bottom: 60%;
+	left: 38%;
+	bottom: 82%;
+}
+a{
+	font-family: Graphik-Medium; 
+	font-size: 25px;
 }
 .sentence4{
 	position: absolute;
-	font-family: Graphik; 
-	width: 50%;
-	height: 50%;
+	font-family: Graphik-Thin; 
+	font-size: 80px;
 	z-index: 1;
 	transform: rotate(90deg);
-	left: 75%;
-	top: 30%;
+	left: 80%;
+	top: 20%;
 }
 .sentence5{
 	position: absolute;
-	font-family: Graphik; 
+	font-family: Graphik-Thin; 
+	font-size: 50px;
 	z-index: 1;
-	transform: rotate(-90deg);
-	left: 40%;
-	bottom: 60%;
+	left: 60%;
+	bottom: 90%;
+}
+.img1 {
+	position: absolute;
+	width: 35%; 
+	right: 64%;
+	bottom: 66%;
+}
+.img2 {
+	position: absolute;
+	width: 35%; 
+	left: 38%;
+	top: 20%;
+}
+.img3 {
+	position: absolute;
+	transform: rotate(90deg);
+	width: 25%;
+	left: 69%;
+	top: 50%;
 }
 
 
