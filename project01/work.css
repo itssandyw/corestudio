@@ -1,14 +1,19 @@
 @font-face {
-       font-family: "Graphik Web";
-       src: url("Graphik-Regular-Web.woff2") format("woff2"),
-            url("Graphik-Regular-Web.woff") format("woff");
+       font-family: "Graphik";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Thin.otf");
+       font-weight: 700;
+       font-style: normal;
+       font-stretch: normal;
+}
+@font-face {
+       font-family: "Graphik-Medium";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Medium.otf");
        font-weight: 700;
        font-style: normal;
        font-stretch: normal;
 }
 html, body{
 	background-color: #ffff40;
-	margin: auto;
 	width: auto;
 	height: auto;
 }
@@ -28,53 +33,45 @@ html, body{
 	left:80%;
 	top: 50%;
 }
-.sentence3 img{
+.sentence3 {
 	position: absolute;
 	width: 45%;
 	right: 60%;
 	top: 55%;
 }
-.img1 img{
-	position: absolute;
-	width: 15%; 
-	left: 16%;
-	top: 15%;
+.picture-container{
+	display: flex;
+	justify-content: center;
+	margin: 100px;
 }
-.img1 img:hover{
-	opacity: 0;
+.picture{
+	display: flex;
+	justify-content: space-between;
 }
-.img2 img{
-	position: absolute;
-	width: 15%; 
-	right: 42%;
-	top: 15%;
-
+.picture-container01{
+	display: flex;
+	justify-content: center;
+	margin: 100px;
 }
-.img2 img:hover{
-	opacity: 0;
+.picture01{
+	display: flex;
+	justify-content: space-between;
 }
-.img3 img{
-	position: absolute;
-	width: 15%;
-	left: 70%;
-	top: 15%
+#img1 {
+	width: 18%;
 }
-.img4 img{
-	position: relative;
-	width: 15%; 
-	left: 16%;
-	top: 15%;
+#img2 {
+	width: 18%;
 }
-.img5 img{
-	position: relative;
-	width: 15%; 
-	right: 42%;
-	top: 15%;
-
+#img3 {
+	width: 18%;
 }
-.img6 img{
-	position: relative;
-	width: 15%;
-	left: 70%;
-	top: 15%
+#img1-1 {
+	width: 18%;
+}
+#img2-2 {
+	width: 18%;
+}
+#img3-3 {
+	width: 18%;
 }
