@@ -1,0 +1,118 @@
+@font-face {
+       font-family: "Graphik-Extralight";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Extralight.otf");
+       font-weight: 700;
+       font-style: normal;
+       font-stretch: normal;
+}
+@font-face {
+       font-family: "Graphik-Thin";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Thin.otf");
+       font-weight: 700;
+       font-style: normal;
+       font-stretch: normal;
+}
+html, body{
+	background-color: #ffff40;
+	width: auto;
+	height: auto;
+}
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: orange;
+}
+.sentence1{
+	position: absolute;
+	font-family: Graphik-Thin;
+	font-size: 50px;
+	z-index: 1; 
+	left:2%;
+}
+
+.sentence2{
+	position: absolute;
+	font-family: Graphik-Extralight; 
+	font-size: 15px;
+	z-index: 1;
+	width: 625px;
+	left:80%;
+	top: 90%;
+}
+
+.sentence3 {
+	position: absolute;
+	z-index: 1;
+	transform: rotate(90.5deg);
+	width: 30%;
+	right: 50%;
+	top: 20%;
+}
+
+p{
+	font-family: Graphik-Thin;
+	font-size: 80px;
+}
+
+.img1{
+	width: 200px;
+	height: 300px;
+}
+
+.img-1{
+	width: 400px;
+	height: 400px;	
+}
+
+.picture01 {
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-start;
+	width: 70%;
+	float: right;
+}
+
+.img2 {
+	display: none;
+}
+
+.picture01:hover > .img-1 {
+	display: none;
+}
+
+.picture01:hover > .img2 {
+	display: flex;
+	justify-content: flex-end;
+	transform: rotate(90deg);
+	width: 60%;
+}
+
+.picture02 {
+	display: flex;
+	justify-content: flex-start;
+	align-self: flex-end;
+	width: 50%;
+	float: left;
+}
+
+.img2 {
+	display: none;
+}
+
+.picture02:hover > .img1 {
+	display: none;
+}
+
+.picture02:hover > .img2 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
