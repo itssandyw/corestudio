@@ -18,17 +18,14 @@ html, body{
 	height: auto;
 }
 a:link {
-  color: red;
+  color: #ff531f;
   text-decoration: none;
 }
 a:visited {
   color: green;
 }
 a:hover {
-  color: red;
-}
-a:active {
-  color: orange;
+  color: #ff531f;
 }
 .sentence1{
 	position: absolute;
@@ -51,10 +48,12 @@ a:active {
 .sentence3 {
 	position: absolute;
 	z-index: 1;
-	transform: rotate(90.5deg);
 	width: 30%;
-	right: 50%;
-	top: 20%;
+	right: 69%;
+	top: 12%;
+}
+.sentence3:hover {
+	background-color: #ff531f;
 }
 
 p{
@@ -65,11 +64,12 @@ p{
 .img1{
 	width: 200px;
 	height: 300px;
+	margin-top: -5%
 }
 
 .img-1{
-	width: 400px;
-	height: 400px;	
+	width: 450px;
+	height: 450px;	
 }
 
 .picture01 {
@@ -93,6 +93,7 @@ p{
 	justify-content: flex-end;
 	transform: rotate(90deg);
 	width: 60%;
+	margin-top: -50px;
 }
 
 .picture02 {
@@ -115,4 +116,6 @@ p{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	height: 50%;
+	margin-top: -70px;
 }

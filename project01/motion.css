@@ -18,48 +18,90 @@ html, body{
 	width: auto;
 	height: auto;
 }
+a:link {
+  color: #ffff40;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: #ffff40;
+}
 .sentence1{
-	position: absolute;
+	position: fixed;
 	font-family: Graphik-Extralight;
-	font-size: 90px;
-	transform: rotate(-90deg);
-	z-index: 1; 
-	right:80%;
-	bottom: 20%
+	font-size: 15px;
+	width: 50%
+	z-index: 1;
+	left:74%;
+	bottom: 1%;
 }
 .sentence2{
-	position: absolute;
+	position: fixed;
 	font-family: Graphik-Extralight;
-	font-size: 14px;
-	text-align: center; 
-	z-index: 1;
-	left:15%;
-	bottom: 55%;
+	font-size: 20px;
+	width: 40%;
+	z-index: 1; 
+	left: 72%;
+	top: 3%;
 }
 .sentence3{
-	position: absolute;
-	font-family: Graphik-Medium; 
-	font-size: 50px;
+	position: fixed;
+	font-family: Graphik-Extralight; 
+	font-size: 80px;
+	transform: rotate(-90deg);
 	z-index: 1;
-	left: 20%;
-	top: 70%;
+	right: 78%;
+	top: 75%;
+	text-decoration: underline ;
+}
+.gif01{
+	position: fixed;
+	width: 220px;
+	height: 400px;
+	z-index: 1;
+	right: 80%;
+	top: 0%;
+	animation: none;
+}
+.gif02{
+	position: fixed;
+	width: 120px;
+	height: 200px;
+	z-index: 1;
+	left: 85%;
+	top: 60%;
+	animation: none;
 }
 .picture-container {
-	display: flex;
-	justify-content: center;
-	margin: 100px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	justify-content:center;
 }
-.picture{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-direction: column;
+@keyframes hover {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 img{
 	width:110px; 
 	height:200px;
+	padding: 20px;
+	animation-name: hover;
+	animation-duration: 1s;
+	animation-fill-mode: backwards;
+	animation-play-state: paused;  
 }
-
+img:active,
+img:focus,
+img:hover {
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
 
 
 

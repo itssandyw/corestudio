@@ -18,17 +18,14 @@ html, body{
 	height: auto;
 }
 a:link {
-  color: red;
+  color: #ff531f;
   text-decoration: none;
 }
 a:visited {
   color: green;
 }
 a:hover {
-  color: red;
-}
-a:active {
-  color: orange;
+  color: #ff531f;
 }
 .sentence1{
 	position: absolute;
@@ -54,12 +51,14 @@ a:active {
 	position: absolute;
 	z-index: 1;
 	transform: rotate(89deg);
-	width: 30%;
-	height: 40%;
-	right: 82%;
-	top: 60%;
+	width: 20%;
+	height: 10%;
+	right: 87%;
+	top: 75%;
 }
-
+.sentence3:hover{
+	background-color: #ff531f;
+}
 img {
 	width: 200px;
 	height: 450px;

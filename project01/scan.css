@@ -1,6 +1,6 @@
 @font-face {
-       font-family: "Graphik";
-       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Thin.otf");
+       font-family: "Graphik-Extralight";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Extralight.otf");
        font-weight: 700;
        font-style: normal;
        font-stretch: normal;
@@ -13,74 +13,129 @@
        font-stretch: normal;
 }
 html, body{
-	background-color: #ff531f;
+	background-color: #ffff40;
 	margin: auto;
 	width: auto;
 	height: auto;
 }
+a:link {
+  color: #ff531f;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: #ff531f;
+}
 .sentence1{
 	position: absolute;
-	font-family: Graphik-Thin;
+	font-family: Graphik-Extralight;
 	font-size: 90px;
 	transform: rotate(-90deg);
 	z-index: 1; 
-	right:80%;
-	bottom: 20%
+	right:85%;
+	top: 65%;
+	text-decoration: underline; 
 }
 .sentence2{
 	position: absolute;
-	font-family: Graphik-Thin;
-	font-size: 14px;
-	text-align: center; 
+	font-family: Graphik-Extralight;
+	font-size: 25px;
+	width: 50%;
 	z-index: 1;
-	left:15%;
-	bottom: 55%;
+	right:34%;
+	top: 40%;
 }
 .sentence3{
 	position: absolute;
-	font-family: Graphik-Thin; 
+	font-family: Graphik-Extralight; 
 	font-size: 20px;
 	z-index: 1;
 	left: 38%;
 	bottom: 82%;
 }
-h1{
+s{
 	font-family: Graphik-Medium; 
 	font-size: 25px;
+	text-decoration: none;
 }
 .sentence4{
 	position: absolute;
-	font-family: Graphik-Thin; 
+	font-family: Graphik-Extralight; 
 	font-size: 80px;
 	z-index: 1;
 	transform: rotate(90deg);
-	left: 80%;
+	left: 83%;
 	top: 20%;
+	text-decoration: underline;
 }
 .sentence5{
 	position: absolute;
-	font-family: Graphik-Thin; 
+	font-family: Graphik-Extralight; 
 	font-size: 50px;
 	z-index: 1;
-	left: 60%;
-	bottom: 90%;
+	left: 65%;
+	bottom: 86%;
 }
-.img1 {
+.picture01{
+	display: flex;
+	justify-content: flex-start;
+	align-self: flex-start;
+	width: 60%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 1%;
+}
+.picture02{
+	display: flex;
+	justify-content: flex-start;
+	align-self: flex-end;
+	width: 58%;
+	float: right;
+	margin-top: -5%;
+	margin-left: 5%;
+}
+.picture03{
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-end;
+	width: 45%;
+	float: right;
+	margin-top: -18%;
+}
+#img1{
+	opacity: 85%;
+	width: 60%; 
+}
+#img2{
+	opacity: 85%;
+	width: 55%;
+}
+#img3{
+	opacity: 85%;
+	width: 45%;
+	transform: rotate(-90deg);
+}
+/*.img1 {
 	position: absolute;
+	opacity: 85%;
 	width: 35%; 
 	right: 64%;
 	bottom: 66%;
 }
 .img2 {
 	position: absolute;
-	width: 35%; 
-	left: 38%;
-	top: 20%;
+	opacity: 85%;
+	width: 32%; 
+	left: 43%;
+	top: 25%;
 }
 .img3 {
 	position: absolute;
-	transform: rotate(90deg);
-	width: 25%;
-	left: 69%;
-	top: 50%;
-}
+	opacity: 85%;
+	transform: rotate(-90deg);
+	width: 20%;
+	left: 78%;
+	top: 60%;
+}*/
