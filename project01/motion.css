@@ -61,7 +61,7 @@ a:hover {
 	font-family: Graphik-Extralight; 
 	font-size: 80px;
 	z-index: 1;
-	right: 70%;
+	left: 70%;
 	top: 5%;
 	text-decoration: underline ;
 }
