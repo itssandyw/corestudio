@@ -56,6 +56,15 @@ a:hover {
 	top: 75%;
 	text-decoration: underline ;
 }
+.sentence4{
+	position: fixed;
+	font-family: Graphik-Extralight; 
+	font-size: 80px;
+	z-index: 1;
+	right: 70%;
+	top: 5%;
+	text-decoration: underline ;
+}
 .gif01{
 	position: fixed;
 	width: 220px;
