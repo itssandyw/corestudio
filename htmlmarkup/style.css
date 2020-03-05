@@ -1,0 +1,49 @@
+@font-face {
+       font-family: "Calibre-Thin";
+       src: url("https://itssandyw.github.io/corestudio/htmlmarkup/Calibre/Calibre-Thin.otf");
+}
+@font-face {
+       font-family: "Calibre-Bold";
+       src: url("https://itssandyw.github.io/corestudio/htmlmarkup/Calibre/Calibre-Bold.otf");
+}
+@font-face {
+       font-family: "Calibre-Regular";
+       src: url("https://itssandyw.github.io/corestudio/htmlmarkup/Calibre/Calibre-Regular.otf");
+}
+html, body{
+       background-color: black;
+       color: white;
+       font-size: 20px;
+       margin: 10%;
+       margin-top: 2%;
+}
+h1{
+       font-family: Calibre-Bold;
+       font-size: 4em;
+       text-align: center;
+}
+h2{
+       font-family: Calibre-Regular;
+       font-size: 2em;
+}
+h3{
+       font-family: Calibre-Regular;
+       font-size: 2em;
+}
+h4{
+       font-family: Calibre-Regular;
+       font-size: 1.7em;
+}
+p{
+       font-family: Calibre-Thin;
+       font-size: 1.4em;
+}
+ul{
+       font-family: Calibre-Regular;
+       font-size: 1.5em;
+}
+.threepara{
+       margin-left: 5%;
+       font-family: Calibre-Regular;
+       font-size: 1em;
+}
