@@ -60,6 +60,7 @@ a:hover {
 	position: fixed;
 	font-family: Graphik-Extralight; 
 	font-size: 75px;
+	transform: rotate(90deg);
 	z-index: 1;
 	left: 72%;
 	top: 20%;
