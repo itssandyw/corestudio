@@ -7,7 +7,6 @@
        src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Medium.otf");
 }
 html,body{
-       width: 1440px;
        background-color: #ffff40;
 
 }
@@ -19,7 +18,7 @@ p{
        margin-top: 0%;
 }
 .pic{
-       width: 50%;
+       width: 100%;
        display: none;
        z-index: 0;
 }
@@ -28,7 +27,7 @@ p{
               display: none
        }
        .pic{
-              width: 50%;
+              width: 100%;
               display: inline-block;
               align-self: left;
        }
