@@ -1,0 +1,44 @@
+@font-face {
+       font-family: "Graphik-Extralight";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Extralight.otf");
+}
+@font-face {
+       font-family: "Graphik-Medium";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Medium.otf");
+}
+html,body{
+       width: 1440px;
+       background-color: #ffff40;
+
+}
+p{
+       font-family: Graphik-Extralight;
+       font-size: 20vw;
+       text-align: center;
+       z-index: 1;
+       margin-top: 0%;
+}
+.pic{
+       width: 50%;
+       display: none;
+       z-index: 0;
+}
+@media(max-width: 1000px){
+       p{
+              display: none
+       }
+       .pic{
+              width: 50%;
+              display: inline-block;
+              align-self: left;
+       }
+}
+@media(max-width: 500px){
+        p{
+              display: inline-block;
+              text-align: left;
+       }  
+       .pic{
+             display: none;
+       }
+}
