@@ -1,4 +1,4 @@
-html,body{
+body{
        background-color: black;
 }
 .pacman {
@@ -54,7 +54,12 @@ html,body{
 	}
 }
 @media (max-width: 800px){
-  .heart{
-    animation: rolling 2s 1 forwards;
-  }
+	body{
+		background-color: #9afdff;
+	}
+	.heart{
+		animation: rolling 2s 1 forwards;
+	}
+
+	
 }
