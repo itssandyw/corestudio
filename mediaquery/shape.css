@@ -1,0 +1,60 @@
+html,body{
+       background-color: black;
+}
+.pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid #ffff40;
+      border-left: 60px solid #ffff40;
+      border-bottom: 60px solid #ffff40;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      position: absolute;
+      top: 45%;
+      z-index: 1;
+    }
+ .heart {
+      position: absolute;
+      width: 100px;
+      height: 90px;
+      left: 90%;
+      bottom: 40%;
+      z-index: 0;
+    }
+    .heart:before,
+    .heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: #ff8af7;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    .heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+@keyframes rolling{
+	0%{
+ 		transform:translate(0, 0);
+	}
+	50%{
+		transform:translate(-300px, 0);
+	}
+	100%{
+		transform:translate(-800px, 0);
+	}
+}
+@media (max-width: 800px){
+  .heart{
+    animation: rolling 2s 1 forwards;
+  }
+}
