@@ -1,0 +1,88 @@
+@font-face {
+       font-family: "Graphik-Light";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Light.otf");
+}
+@font-face {
+       font-family: "Graphik-Medium";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Medium.otf");
+}
+html,body{
+      background-color: #0F4C81;
+      margin-top:1vw;
+}
+p{
+	font-family: Graphik-Light;
+	color: #BDD340;
+}
+a{
+	text-decoration:none;
+}
+.mainbox{
+ 	display: flex;
+ 	flex-direction: column;
+}
+.topbox{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top:-90px;
+}
+.name{
+	font-family: Graphik-Medium;
+	font-size: 70px;
+}
+.name:hover{
+	color: #f46f60;
+}
+.info{
+	display: flex;
+	align-self: flex-end;
+	text-align: right;
+	font-family: Graphik-Medium;
+	font-size: 70px;
+}
+.info:hover{
+	color: #f46f60;
+}
+.line{
+	width:100vw;
+	height:2px;
+	background-color: #f46f60;
+	margin-top:-70px;
+}
+.lowerbox{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+.intro{
+	font-family: Graphik-Light;
+	color: #BDD340;
+	font-size: 30px;
+	line-height: 1.4;
+	width: 65%;
+	display: flex;
+	align-items: flex-start;
+	margin-right: 150px;
+}
+.email{
+	font-family: Graphik-Light;
+	color: #BDD340;
+	font-size: 35px;
+	line-height: 1.5;
+	display: flex;
+	align-items: flex-end;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
