@@ -77,7 +77,59 @@ a{
 	align-items: flex-end;
 	text-align: right;
 }
-
+@media(max-width: 1000px){
+      .topbox{
+        margin-top: -60px;
+      }
+      .line{
+        margin-top: -50px;
+      }
+      .name{
+       font-size: 50px;
+      }
+      .info{
+       font-size: 50px;
+      }
+      .intro{
+       font-size: 20px;
+      }
+      .email{
+       font-size: 25px;
+      }
+}
+@media(max-width: 500px){
+      .topbox{
+        margin-top: -40px;
+      }
+      .line{
+        margin-top: -30px;
+      }
+      .name{
+       font-size: 30px;
+      }
+      .info{
+       font-size: 30px;
+      }
+      .lowerbox{
+      	display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+      }
+      .intro{
+      	font-size: 15px;
+      	width: 100%;
+      	display: flex;
+		align-items: flex-start;
+		margin-bottom: 50px;
+	}
+      .email{
+      	font-size: 15px;
+      	display: flex;
+		align-items: flex-end;
+		text-align: right;
+		margin-left: 170px;
+	}
+}
 
 
 
