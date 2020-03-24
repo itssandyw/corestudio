@@ -19,10 +19,6 @@ a{
 p{
   font-family: Graphik-Light;
   color: #BDD340;
-  /*font-size: 20vw;
-  text-align: center;
-  z-index: 1;
-  margin-top: 0%;*/
 }
 p:hover{
   color: #f46f60;
@@ -66,31 +62,26 @@ p:hover{
   flex-direction: row;
   justify-content: space-between;
   /*align-items: flex-start;*/
-  font-size: 50px;
+  font-size: 70px;
 }
 .exercise{
   display: flex;
   flex-direction: column;
  /* justify-content: space-between;*/
   /*align-items: flex-start;*/
-  font-size: 50px;
+  font-size: 70px;
 }
-/*@media(max-width: 1000px){
-       p{
-              display: none
+@media(max-width: 1000px){
+       .name{
+        font-size: 45px;
        }
-       .pic{
-              width: 100%;
-              display: inline-block;
-              align-self: left;
+       .info{
+        font-size: 45px;
+       }
+       .project{
+        font-size: 
        }
 }
 @media(max-width: 500px){
-        p{
-              display: inline-block;
-              text-align: left;
-       }  
-       .pic{
-             display: none;
-       }
-}*/
+        
+}
