@@ -1,0 +1,66 @@
+html,body {
+	background: linear-gradient(-45deg, #DEEF97, #A7ED98, #DEEF97,#A7ED98);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.music{
+	display: flex;
+	flex-direction: column;
+}
+.cup{
+	width: 40vw;
+	transform: rotate(180deg);
+	display: flex;
+	margin-left: 25vw;
+}
+@media(max-width: 1000px){
+	html,body{
+		background: linear-gradient(-45deg, #9CDEE2, #9DB5E0, #9CDEE2,#9DB5E0);
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+	}
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+	}
+}
+@media(max-width: 500px){
+	html,body{
+		background: linear-gradient(-45deg, #E8C4DE, #EFBDBD, #E8C4DE,#EFBDBD);
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+	}
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+	}
+}
+
+
+
+
+
+
