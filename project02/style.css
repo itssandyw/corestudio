@@ -14,16 +14,43 @@ html,body {
 		background-position: 0% 50%;
 	}
 }
-.music{
+audio{
 	display: flex;
 	flex-direction: column;
+	
 }
+
 .cup{
 	width: 40vw;
 	transform: rotate(180deg);
 	display: flex;
 	margin-left: 25vw;
+ 	animation: ball 2s infinite;
 }
+@keyframes ball {
+  0% {
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translate3d(0, 0, 0); }
+  20% {
+    animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
+    transform: translate3d(0, -100px, 0); }
+  40% {
+    animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    transform: translate3d(0, 0, 0); }
+  60% {
+    animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
+    transform: translate3d(0, -30px, 0); }
+  75% {
+    animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    transform: translate3d(0, 0, 0); }
+  85% {
+    animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
+    transform: translate3d(0, -15px, 0); }
+  100% {
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    transform: translate3d(0, 0, 0); } 
+}
+
 @media(max-width: 1000px){
 	html,body{
 		background: linear-gradient(-45deg, #9CDEE2, #9DB5E0, #9CDEE2,#9DB5E0);
@@ -39,6 +66,9 @@ html,body {
 		}
 		100% {
 			background-position: 0% 50%;
+	}
+	.cup{
+		transform: rotate(90deg);
 	}
 }
 @media(max-width: 500px){
@@ -56,6 +86,9 @@ html,body {
 		}
 		100% {
 			background-position: 0% 50%;
+	}
+	.cup{
+		transform: rotate(-90deg);
 	}
 }
 
