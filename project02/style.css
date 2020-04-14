@@ -85,7 +85,7 @@ html,body {
   font-size: 10em;
   letter-spacing: 2px;
   overflow: hidden;
-  background: linear-gradient(90deg, #9CDEE2, #9DB5E0, #DEEF97, #A7ED98, #E8C4DE,#EFBDBD);
+  background: linear-gradient(90deg, #DEEF97, #A7ED98, #DEEF97,#A7ED98);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: text 3s linear infinite;
@@ -216,7 +216,6 @@ audio{
 		100% {
 			background-position: 0% 50%;
 	}
-
 }
 
 @media screen and (max-width: 500px){
