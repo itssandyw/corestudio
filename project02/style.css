@@ -14,44 +14,174 @@ html,body {
 		background-position: 0% 50%;
 	}
 }
+.text {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #DEEF97, #A7ED98, #DEEF97,#A7ED98);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: text 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+.text1 {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #9CDEE2, #9DB5E0, #DEEF97, #A7ED98, #E8C4DE,#EFBDBD);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: text 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+.text2 {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #E8C4DE, #EFBDBD, #E8C4DE,#EFBDBD);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: text 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+.text3 {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #DEEF97, #A7ED98, #DEEF97,#A7ED98);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: text 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+.text4 {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #9CDEE2, #9DB5E0, #DEEF97, #A7ED98, #E8C4DE,#EFBDBD);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: text 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+.text5 {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #9CDEE2, #9DB5E0, #DEEF97, #A7ED98, #E8C4DE,#EFBDBD);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: text 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+.text6 {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #9CDEE2, #9DB5E0, #9CDEE2,#9DB5E0);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: text 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes text {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
 audio{
-	display: flex;
-	flex-direction: column;
-	
+	filter: sepia(90%) saturate(0%) grayscale(0) contrast(50%) invert(100%);
+    width: 30vw;
+    height: 3vh;
+	position: fixed;
+	margin-left: 65vw;
+	bottom: 2vh;
 }
 
 .cup{
+	position: fixed;
 	width: 40vw;
-	transform: rotate(180deg);
-	display: flex;
 	margin-left: 25vw;
+	margin-top: 5vw;
  	animation: ball 2s infinite;
 }
 @keyframes ball {
   0% {
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transform: translate3d(0, 0, 0); }
+    transform: translateY(0); }
   20% {
     animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
-    transform: translate3d(0, -100px, 0); }
+    transform: translateY(10vh); }
+  30% {
+    animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
+    transform: translateX(4vw); }
   40% {
     animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
-    transform: translate3d(0, 0, 0); }
+    transform: translateY(0); }
+  50% {
+    animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
+    transform: translateX(-4vw); }
   60% {
     animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
-    transform: translate3d(0, -30px, 0); }
+    transform: translateY(3vh);
+    transform: translateX(4vw); }
   75% {
     animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
-    transform: translate3d(0, 0, 0); }
+    transform: translateY(0);
+    transform: translateX(-3vw); }
   85% {
     animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
-    transform: translate3d(0, -15px, 0); }
+    transform: translateY(1.5vh); }
   100% {
     animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-    transform: translate3d(0, 0, 0); } 
+    transform: translateY(0);
+    transform: rotateX(80deg); } 
 }
 
-@media(max-width: 1000px){
+@media screen and (max-width: 1070px){
+	html,body{
+		background: linear-gradient(-45deg, #9CDEE2, #9DB5E0, #DEEF97, #A7ED98, #E8C4DE,#EFBDBD);
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+	}
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+	}
+
+}
+@media screen and (max-width: 1000px){
 	html,body{
 		background: linear-gradient(-45deg, #9CDEE2, #9DB5E0, #9CDEE2,#9DB5E0);
 		background-size: 400% 400%;
@@ -67,11 +197,29 @@ audio{
 		100% {
 			background-position: 0% 50%;
 	}
-	.cup{
-		transform: rotate(90deg);
-	}
+
 }
-@media(max-width: 500px){
+
+@media screen and (max-width: 600px){
+	html,body{
+		background: linear-gradient(-45deg, #9CDEE2, #9DB5E0, #DEEF97, #A7ED98, #E8C4DE,#EFBDBD);
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+	}
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+	}
+
+}
+
+@media screen and (max-width: 500px){
 	html,body{
 		background: linear-gradient(-45deg, #E8C4DE, #EFBDBD, #E8C4DE,#EFBDBD);
 		background-size: 400% 400%;
@@ -87,13 +235,7 @@ audio{
 		100% {
 			background-position: 0% 50%;
 	}
-	.cup{
-		transform: rotate(-90deg);
-	}
 }
-
-
-
 
 
 
