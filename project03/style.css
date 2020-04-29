@@ -1,0 +1,56 @@
+body{
+       background-color: #B5B2B2;
+}
+.circle{
+	width: 120px;
+    height: 120px;
+    background-color: #EAF8C2;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+}
+.pacman {
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid #EAF8C2;
+    border-left: 60px solid #EAF8C2;
+    border-bottom: 60px solid #EAF8C2;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+}
+.envelope1{
+	width: 10%;
+	position: absolute;
+    top: 45%;
+}
+.envelope2{
+	width: 40%;
+	position: absolute;
+    top: 10%;
+    left: 30%; 
+}
+.envelope3{
+	width: 40%;
+	position: absolute;
+    top: 10%;
+    left: 30%; 
+}
+.envelope4{
+	width: 40%;
+	position: absolute;
+    bottom: -5%;
+    left: 30%; 
+}
+.envelope5{
+	width: 40%;
+	position: absolute;
+    bottom: -5%;
+    left: 30%; 
+}
