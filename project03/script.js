@@ -11,9 +11,6 @@ $(document).ready(function(){
 		$(".circle").hide();
 		$(".pacman").show();
 	});
-	// $(".pacman").click(function() {
-	// 	$(".envelope1").show();
-	// });
 	$(".pacman").click(function() {
 		$(".envelope1").show();
 		var left = $(window).width() - $('.envelope1').width();
