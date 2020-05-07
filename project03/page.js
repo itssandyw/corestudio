@@ -1,10 +1,14 @@
 $(document).ready(function(){
 
-	$('#fullpage').fullpage({
-		autoScrolling: true,
-		fitToSection: true,
-		scrollOverflow: true,
-		// normalScrollElements: '#tour-dates'
+	$(".rec1").hide();
+
+	$(".pic").mouseover(function() {
+    	$(".pic").hide();
+		$(".rec1").show();
 	});
-	
+	$(".rec1").mouseleave(function() {
+    	$(".rec1").hide();
+		$(".pic").show();
+	});
+
 });
