@@ -3,8 +3,8 @@
        src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Light.otf");
 }
 @font-face {
-       font-family: "Graphik-Medium";
-       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Medium.otf");
+       font-family: "Graphik-Regular";
+       src: url("https://itssandyw.github.io/corestudio/project01/Graphik/Graphik-Regular.otf");
 }
 html,body{
       background-color: #0F4C81;
@@ -32,21 +32,31 @@ p:hover{
   margin-top:-90px;
 }
 .name{
-  font-family: Graphik-Medium;
+  font-family: Graphik-Regular;
   font-size: 70px;
 }
 .info{
   display: flex;
   align-self: flex-end;
   text-align: right;
-  font-family: Graphik-Medium;
+  font-family: Graphik-Regular;
   font-size: 70px;
 }
 .line{
   width:100vw;
   height:2px;
   background-color: #f46f60;
-  margin-top:-70px;
+  margin-top:-65px;
+}
+.title{
+  font-family: Graphik-Regular;
+  color: #BDD340;
+  font-size: 70px;
+}
+.title0{
+  font-family: Graphik-Regular;
+  color: #BDD340;
+  font-size: 70px;
 }
 .lowerbox{
   display: flex;
@@ -56,17 +66,13 @@ p:hover{
 }
 .project{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /*align-items: flex-start;*/
-  font-size: 60px;
+  flex-direction: column;
+  font-size: 50px;
 }
 .exercise{
   display: flex;
   flex-direction: column;
- /* justify-content: space-between;*/
-  /*align-items: flex-start;*/
-  font-size: 60px;
+  font-size: 50px;
 }
 @media(max-width: 1000px){
       .topbox{
