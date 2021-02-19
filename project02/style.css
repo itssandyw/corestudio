@@ -23,7 +23,8 @@ html,body {
 }
 .name{
   font-family: 'Montserrat', sans-serif;
-  font-size: 70px;
+  font-size: 10em;
+  letter-spacing: 2px;
 }
 .text {
   position: relative;
