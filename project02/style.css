@@ -14,6 +14,9 @@ html,body {
 		background-position: 0% 50%;
 	}
 }
+a{
+  text-decoration:none;
+}
 .topbox{
   display: flex;
   flex-direction: row;
