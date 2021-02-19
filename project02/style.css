@@ -23,8 +23,12 @@ html,body {
 }
 .name{
   font-family: 'Montserrat', sans-serif;
-  font-size: 10em;
+  font-size: 5em;
   letter-spacing: 2px;
+  color: #BDD340;
+}
+.name:hover{
+  color: #f46f60;
 }
 .text {
   position: relative;
