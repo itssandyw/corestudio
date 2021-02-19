@@ -17,6 +17,9 @@ html, body{
        margin: 10%;
        margin-top: 2%;
 }
+a{
+       text-decoration:none;
+}
 h1{
        font-family: Calibre-Bold;
        font-size: 4em;
