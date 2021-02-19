@@ -42,6 +42,21 @@ ul{
        font-family: Calibre-Regular;
        font-size: 1.5em;
 }
+.topbox{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: flex-start;
+       margin-top:-90px;
+}
+.name{
+       font-family: Calibre-Bold;
+       font-size: 2em;
+       color: white;
+}
+.name:hover{
+       color: #BDD340;
+}
 .threepara{
        margin-left: 5%;
        font-family: Calibre-Regular;
